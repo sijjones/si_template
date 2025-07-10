@@ -6,11 +6,14 @@ build-backend = "flit_core.buildapi"
 name = "ccds"
 
 [project]
-name = "cookiecutter-data-science"
-version = "2.2.0"
-description = "A logical, reasonably standardized but flexible project structure for doing and sharing data science work."
+# name = "cookiecutter-data-science"
+name = "si_template"
+# version = "2.2.0"
+version = "0"
+description = "A logical, reasonably standardized but flexible project structure for doing and sharing data science work. Forked from ccds."
 authors = [
-  { name = "DrivenData", email = "info@drivendata.org" },
+#  { name = "DrivenData", email = "info@drivendata.org" },
+  { name = "SJJ", email = "sijjones@outlook.com" },
 ]
 license = { file = "LICENSE" }
 readme = "README.md"
@@ -36,10 +39,10 @@ dependencies = [
 ]
 
 [project.scripts]
-ccds = "ccds.__main__:main"
+si_template = "ccds.__main__:main"
 
-[project.urls]
-"Homepage" = "https://cookiecutter-data-science.drivendata.org/"
-"Source Code" = "https://github.com/drivendataorg/cookiecutter-data-science/"
-"Bug Tracker" = "https://github.com/drivendataorg/cookiecutter-data-science/issues"
-"DrivenData" = "https://drivendata.co"
+# [project.urls]
+# "Homepage" = "https://cookiecutter-data-science.drivendata.org/"
+# "Source Code" = "https://github.com/drivendataorg/cookiecutter-data-science/"
+# "Bug Tracker" = "https://github.com/drivendataorg/cookiecutter-data-science/issues"
+# "DrivenData" = "https://drivendata.co"
